@@ -5,11 +5,17 @@ body {
 
 h1 {
     font-size: 50px;
+    font-weight: 700;
 }
 
 .container {
     display: flex;
-    margin-bottom: 150px;
+    margin-top: 80px;
+
+}
+
+.color {
+    color: rgba(157, 39, 39, 0.693);
 }
 
 .half-width {
@@ -21,4 +27,34 @@ h1 {
     width: 80%;
 }
 
-.link-button {}
+.padding-bottom {
+    padding-bottom: 20px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 15px 30px;
+    color: black;
+    border-radius: 20px;
+    font-weight: 700;
+
+}
+
+.mid-banner {
+    background-image: url(images/shapes/7.png);
+}
+
+.padding {
+    padding-top: 50px;
+}
+
+.p {
+    padding-bottom: 100px;
+}
+
+#mid-banner-img {
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 100px;
+}
